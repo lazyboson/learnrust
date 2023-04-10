@@ -10,4 +10,11 @@ pub fn usevec() {
     for x in vectors.iter() {
         println!("vector val : {}", x);
     }
+
+    let mut vectors2: Vec<i32> = Vec::new();
+    for i in 0..10 {
+        vectors2.push(i);
+    }
+
+    println!("vector2 is {:?}", vectors2);
 }
