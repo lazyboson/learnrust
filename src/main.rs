@@ -1,12 +1,22 @@
 fn main() {
     println!("learnrust — pick a topic to run:");
     println!();
-    println!("  cargo run --example formatted_print            // println! formatting");
-    println!("  cargo run --example variables_and_mutability   // let, mut, const, destructuring");
-    println!("  cargo run --example data_types                 // primitive types");
-    println!("  cargo run --example tuples                     // tuples");
-    println!("  cargo run --example strings                    // &str and String");
-    println!("  cargo run --example arrays                     // arrays and slices");
-    println!("  cargo run --example vectors                    // Vec<T>");
-    println!("  cargo run --example common_collections         // HashMap, HashSet, BTreeMap, BTreeSet");
+    println!("  Rust by Example");
+    println!("    cargo run --example formatted_print            // println! formatting");
+    println!();
+    println!("  TRPL Ch 3: Common Programming Concepts");
+    println!("    cargo run --example variables_and_mutability   // 3.1 let, mut, const, shadowing");
+    println!("    cargo run --example data_types                 // 3.2 integers, floats, bool, char, unit");
+    println!("    cargo run --example tuples                     // 3.2 compound: tuples + destructuring");
+    println!("    cargo run --example arrays                     // 3.2 compound: arrays + slices");
+    println!("    cargo run --example functions                  // 3.3 fn, params, return, expr vs stmt");
+    println!("    cargo run --example comments                   // 3.4 // and /* */ and doc comments");
+    println!("    cargo run --example control_flow               // 3.5 if, loop, while, for, ranges");
+    println!();
+    println!("  TRPL Ch 8: Common Collections");
+    println!("    cargo run --example strings                    // 8.2 String, &str");
+    println!("    cargo run --example vectors                    // 8.1 Vec<T>");
+    println!("    cargo run --example common_collections         // HashMap, HashSet, BTreeMap, BTreeSet");
+    println!();
+    println!("Run all tests with: cargo test");
 }
