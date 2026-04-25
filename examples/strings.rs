@@ -1,6 +1,9 @@
 fn main() {
-    let hello = "hello";
+    let hello: &str = "hello";
     let mut hel = String::from("Hello");
+    let hell2 = String::from("Hello2");
+    hel = hell2;
+    println!("changed {}", hel);
 
     hel.push('a');
     hel.push_str("pandey");

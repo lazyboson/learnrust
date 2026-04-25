@@ -43,6 +43,15 @@ cargo test --test <topic>       # one topic
 | 3.4 Comments | [`comments`](examples/comments.rs) | — | `//`, `/* */`, `///` outer doc, `//!` inner doc |
 | 3.5 Control flow | [`control_flow`](examples/control_flow.rs) | [tests](tests/control_flow.rs) | `if` as expression, `loop` with `break value`, loop labels, `while`, `for`, ranges `..` and `..=`, `.rev()` |
 
+### TRPL Ch 4 — Understanding Ownership
+
+| Section | Example | Tests | Covers |
+| --- | --- | --- | --- |
+| 4.1 What is ownership? | [`ownership`](examples/ownership.rs) | [tests](tests/ownership.rs) | three ownership rules, move semantics for `String`, `.clone()` for deep copy, `Copy` trait for stack-only types, ownership through function calls and returns |
+| 4.2 References & borrowing | [`references_and_borrowing`](examples/references_and_borrowing.rs) | [tests](tests/references_and_borrowing.rs) | `&T` shared borrow, `&mut T` exclusive borrow, **one-mut-XOR-many-shared** rule, no dangling refs, non-lexical lifetimes (NLL) |
+| 4.3 Slices | [`slices`](examples/slices.rs) | [tests](tests/slices.rs) | `&str` slice, range syntax `&s[..n]` / `&s[n..]` / `&s[..]`, string literals as `&'static str`, `&str` as more general parameter than `&String`, `&[T]` array/Vec slices |
+| Patterns: mutating a String | [`mutate_string`](examples/mutate_string.rs) | [tests](tests/mutate_string.rs) | side-by-side: `&mut String` (preferred) vs move-and-return; why caller `mut` and parameter `mut` are independent |
+
 ### TRPL Ch 8 — Common Collections
 
 | Section | Example | Tests | Covers |

@@ -13,6 +13,12 @@ fn main() {
     println!("    cargo run --example comments                   // 3.4 // and /* */ and doc comments");
     println!("    cargo run --example control_flow               // 3.5 if, loop, while, for, ranges");
     println!();
+    println!("  TRPL Ch 4: Understanding Ownership");
+    println!("    cargo run --example ownership                  // 4.1 ownership rules, move, clone, Copy");
+    println!("    cargo run --example references_and_borrowing   // 4.2 &T, &mut T, borrowing rules, NLL");
+    println!("    cargo run --example slices                     // 4.3 &str, &[T], slice as parameter");
+    println!("    cargo run --example mutate_string              // patterns: &mut String vs move+return");
+    println!();
     println!("  TRPL Ch 8: Common Collections");
     println!("    cargo run --example strings                    // 8.2 String, &str");
     println!("    cargo run --example vectors                    // 8.1 Vec<T>");
