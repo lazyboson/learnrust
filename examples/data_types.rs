@@ -1,4 +1,4 @@
-pub fn datatype() {
+fn main() {
     //primitive types
     let x = 32;
     let y = 2.5;

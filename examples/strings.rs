@@ -1,4 +1,4 @@
-pub fn stringmethods() {
+fn main() {
     let hello = "hello";
     let mut hel = String::from("Hello");
 

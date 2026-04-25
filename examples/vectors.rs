@@ -1,4 +1,4 @@
-pub fn usevec() {
+fn main() {
     //vectors are resizable arrays
     let mut vectors: Vec<i32> = vec![1,2,3,4,5];
 

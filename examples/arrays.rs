@@ -1,4 +1,4 @@
-pub fn usearray() {
+fn main() {
     let mut members: [i32; 5] = [1,2,3,4,5];
 
     println!("{:?}", members);

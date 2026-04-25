@@ -1,4 +1,4 @@
-pub fn var() {
+fn main() {
     let name = "Ashutosh";
     let mut age = 29;
 

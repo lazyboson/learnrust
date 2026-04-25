@@ -1,4 +1,4 @@
-pub fn run() {
+fn main() {
     println!("hi from print");
 
     //base formatting

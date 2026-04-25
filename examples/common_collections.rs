@@ -1,4 +1,4 @@
-pub fn stl() {
+fn main() {
     let mut map: std::collections::HashMap<&str, i32> = std::collections::HashMap::new();
     map.insert("one", 1);
     map.insert("two", 2);

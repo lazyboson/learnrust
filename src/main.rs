@@ -1,28 +1,12 @@
-mod print;
-mod vars;
-mod types;
-mod tuples;
-mod strings;
-mod arr;
-mod vec;
-mod stl;
-use std::{io};
-
 fn main() {
-    stl::stl();
-//    vec::usevec();
-    //print::run();
-    //vars::var();
-    //strings::stringmethods();
-    //types::datatype();
-    //tuples::tuples();
-    //arr::usearray();
-
-    //println!("Guess the number");
-    //let mut guess = String::new();
-    //io::stdin().read_line(&mut guess).expect("Failed to read the line");
-    //println!("You guessed: {guess}");
-    //let x = 5; 
-    //let y = 6;
-    //println!("x= {x} and y+2 = {}", y);
+    println!("learnrust — pick a topic to run:");
+    println!();
+    println!("  cargo run --example formatted_print            // println! formatting");
+    println!("  cargo run --example variables_and_mutability   // let, mut, const, destructuring");
+    println!("  cargo run --example data_types                 // primitive types");
+    println!("  cargo run --example tuples                     // tuples");
+    println!("  cargo run --example strings                    // &str and String");
+    println!("  cargo run --example arrays                     // arrays and slices");
+    println!("  cargo run --example vectors                    // Vec<T>");
+    println!("  cargo run --example common_collections         // HashMap, HashSet, BTreeMap, BTreeSet");
 }
